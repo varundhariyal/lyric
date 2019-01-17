@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>Lyricist</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+  <!-- banner -->
+  <div class="jumbotron jumbotron-fluid bannerBackground">
+    <div class="container">
+      <h1 class="display-3 text-dark">Lyricist.</h1>
+      <p class="lead text-white">Want to sing,but don't know the lyrics.Here you go!</p>
+    </div>
+  </div>
+  <!--body section-->
+  <div class="container text-center bg-transparent mainPageView">
+    <div class="row rowMarginTop">
+      <div class="col">
+        <input class="form-control" type="search" name="artist" id="artistSearch" placeholder="Enter Artist">
+      </div>
+      <div class="col">
+        <input id="titleSearch" class="form-control" type="search" name="title" placeholder="Title Of Song">
+      </div>
+    </div>
+    <!--button to trigger a search  -->
+    <div class="row text-center rowMarginTop">
+      <div class="col">
+        <button class="btn btn-danger" id="buttonSearch" type="button" name="buttonSearch">Lyrics</button>
+      </div>
+    </div>
+  </div>
+  <!--End main page view-->
+  <!--Lyric Content View page  -->
+  <div class="container contentView">
+    <div class="row rowMarginTop">
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-header bg-dark text-light">
+            <p class="cardArtist lead"><b>Featured</b></p>
+          </div>
+          <div class="card-body bg-transparent">
+            <h5 class="cardTitle card-title text-warning display-4"><b>Empty</b></h5>
+            <p class="card-text cardLyrics lead">No Lyrics Found.</p>
+            <a href="index.html" class="btn btn-danger">GO Back</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer id="explore" class="marginTop bannerBackground footerPara text-center">
+    <div class="footerPara paddingTopFromFooter">
+      <img src="varun1.jpg" class="img-fluid footerImage rounded-circle" alt="...">
+      <div class="media-body">
+        <h5 class="mt-0">Mean Stack Developer</h5>
+        <p class="lead text-light">You must have a sense of humour to develop a website.</p>
+        <span>&copy; All Rights Reserved By Humans.</span>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <!-- ajax cdn  -->
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

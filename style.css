@@ -1,0 +1,34 @@
+.bannerBackground{
+  background: linear-gradient(silver,grey)
+}
+.rowMarginTop{
+  margin-top: 10vh;
+}
+.hide{
+  display: none !important;
+}
+.show{
+  display: inherit !important;
+}
+.contentView{
+  display: none;
+}
+.cardLyrics{
+font-family: 'Permanent Marker', cursive;
+}
+.footerPara{
+  font-size: 1rem;
+}
+.paddingTopFromFooter{
+  padding: 6vh 0 6vh 0;
+}
+.footerImage{
+  width: 75px;
+  height: 75px;
+}
+.footerImageAlign{
+  text-align: center;
+}
+.marginTop{
+  margin-top: 20vh;
+}
